@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Email wrong</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <?php
+    $this->load->helper('url');
+    ?>
+    <link rel="stylesheet" type="text/css" href=<?php echo base_url()."css/style2.css";?>>
+
+<style type="text/css">
+	input[type=text]
+	{
+		margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+
+	}
+
+</style>
+
+<body>
+<div class="a1">
+<div class="container-fluid">
+<div class="row">
+<div class="text1">
+<div class="col-lg-3 col-sm-12 col-sm-offset-0">
+<p><b class="fb">facebook</b></p>
+
+ </div> 
+ <div class="col-lg-3 col-lg-offset-0 col-sm-4 col-sm-offset-0">
+<table classs="c1"><tr><td style="padding-left:175px; padding-top:17px;">
+	<button  class="btn-log" type="submit" name="Login" value="LOGIN">Sign up</button></td></tr></table></div>
+
+
+</div></div></div>
+</div><!-- </div>
+ -->
+
+<div class="b1">
+<div class="container">
+<div class="row">
+<div class="col-lg-10 col-md-10 col-lg-offset-3 col-md-offset-3 body1">
+
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 x1">
+<p class="text1"><b>Facebook login</b></p>
+
+</div>
+</div><hr>
+<div class="row">
+<div class="col-lg-10 col-lg-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+
+<form method="post" action=<?php echo base_url()."index.php/Logincontroler/sample"; ?>>
+<table class="table1">
+<tr><td style="padding-left:80px; ">Email or Phone:</td><td style="padding-left:0px;"><input type="text" name="name" ></td>
+</tr>
+<tr><td  style="padding-left:80px;">Password:</td><td><input type="password" name="pass" ></td></tr>
+<tr><td></td></td><td ><input type="checkbox" name="log" checked>Keep me logged in</td></tr>
+<tr><td></td><td><button class="btn-cls" type="submit"  name="submit" value="Log in">Log in</button>or <span style="color:#0066ff;"><b>  Sign up for Facebook</b></span></td><!-- <td> --><!-- </td> --></tr>
+<tr><td></td><td><span style="color:#0066ff;">Forgotten password?</span></td></tr>
+
+
+</table></form></div></div>
+
+</div>
+</div></div></div>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 hidden-sm hidden-xs">
+<img class="img-responsive" src=<?php echo base_url()."images/foot.PNG";?>>
+</div></div></div>
+<!-- </body> -->
+
+
+
+</body>
+</html>

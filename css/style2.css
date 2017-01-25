@@ -1,0 +1,73 @@
+.fb
+{
+	font-size: 35px;
+	padding-left: 100px;
+	color:white;
+	padding-top: 50px;
+}
+.a1
+{
+	width: 800;
+	height: 70px;
+	background-color:#000066;
+}
+.text1
+{
+	height: 70px;
+	width: 400px;
+	padding-top: 20px;
+}
+.c1
+{
+	padding-left: 200px;
+}
+.btn-log
+{
+	background-color:#33cc33;
+	color:white;
+	width: 70px;
+	height: 30px;
+	font-family: lucida grande;
+	border-color: #000066;
+	/*padding-bottom: 50px;*/
+
+}
+.b1
+{
+	background-color: #e0ebeb;
+	height: 520px;
+	width: 800;
+}
+.body1
+{
+	background-color: white;
+	height: 300px;
+	width: 500px;
+	margin-top: 100px;
+}
+.text1
+{
+padding-left: 5px;
+	color:#000066;
+	font-weight: 700;
+	font-size:15px;
+	font-stretch: expanded;
+	}
+
+
+	.x1
+	{
+		height: 40px;
+	}
+.btn-cls
+{
+	
+	background-color: #005ce6;
+	color:white;
+	font-family: lucida grande;
+	border-color: white;
+	width: 60px;
+	height: 30px;
+	/*padding-left: 100px;*/
+
+}
